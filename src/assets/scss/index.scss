@@ -1,0 +1,11 @@
+.list_tabs_items {
+  .el-tabs__nav {
+    width: 100%;
+    display: flex;
+  }
+
+  .el-tabs__item {
+    flex: 1;
+    text-align: center;
+  }
+}
