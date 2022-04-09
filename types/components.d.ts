@@ -5,6 +5,8 @@
 declare module 'vue' {
   export interface GlobalComponents {
     ChooseAreaSrc: typeof import('./../src/components/chooseArea/src/index.vue')['default']
+    ChooseCitySrc: typeof import('./../src/components/chooseCity/src/index.vue')['default']
+    ChooseDateSrc: typeof import('./../src/components/chooseDate/src/index.vue')['default']
     ChooseIconSrc: typeof import('./../src/components/chooseIcon/src/index.vue')['default']
     ChooseTimeSrc: typeof import('./../src/components/chooseTime/src/index.vue')['default']
     ContainerSrc: typeof import('./../src/components/container/src/index.vue')['default']
@@ -15,6 +17,7 @@ declare module 'vue' {
     NotificationSrc: typeof import('./../src/components/notification/src/index.vue')['default']
     ProgressSrc: typeof import('./../src/components/progress/src/index.vue')['default']
     TrendSrc: typeof import('./../src/components/trend/src/index.vue')['default']
+    UploadCtrlSrc: typeof import('./../src/components/uploadCtrl/src/index.vue')['default']
   }
 }
 

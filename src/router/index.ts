@@ -38,6 +38,18 @@ const routes: Array<RouteRecordRaw> = [
             {
                 path:'/chooseTime',
                 component:()=>import("@/views/ChooseTime/index.vue")
+            },
+            {
+                path:'/chooseDate',
+                component:()=>import("@/views/ChooseDate/index.vue")
+            },
+            {
+                path:'/chooseCity',
+                component:()=>import("@/views/ChooseCity/index.vue")
+            },
+            {
+                path:'/uploadCtrl',
+                component:()=>import("@/views/UploadCtrl/index.vue")
             }
         ]
     },

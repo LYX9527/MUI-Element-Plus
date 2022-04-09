@@ -2,13 +2,7 @@
 import {Edit} from "@element-plus/icons-vue";
 </script>
 <template>
-  23
-  <el-icon-edit/>
-  132
-  <el-button>TEST</el-button>
-  <el-icon>
-    <Edit/>
-  </el-icon>
+  <div class="text-2xl font-bold">HOME</div>
 </template>
 <style lang="scss" scoped>
 svg {

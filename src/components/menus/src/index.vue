@@ -10,7 +10,6 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {
   defaultActive: "",
 });
-// console.log(props.data);
 </script>
 
 <template>

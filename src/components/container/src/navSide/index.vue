@@ -38,7 +38,7 @@ const data: Array<MenuItem> = [
   {
     icon: 'Bell',
     title: '城市选择',
-    index:"6",
+    index:"/chooseCity",
   },
   {
     icon:'Coin',
@@ -46,14 +46,18 @@ const data: Array<MenuItem> = [
     index:"/menus",
   },
   {
-    icon:"",
+    icon:"SmiSelect",
     title:"进度条",
     index:"/progress",
   },
   {
-    icon:'',
-    title:'时间选择',
-    index:'/1chooseTime'
+    icon:'Open',
+    title:'日期选择',
+    index:'/chooseDate'
+  },{
+    icon:'Open',
+    title:'上传',
+    index:'/uploadCtrl'
   }
 ]
 </script>

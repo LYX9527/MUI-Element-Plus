@@ -9,3 +9,15 @@
     text-align: center;
   }
 }
+
+.my_select{
+  .select-trigger{
+    height: 100% !important;
+    .el-input{
+      height: 100% !important;
+      .el-input__inner{
+        height: 100% !important;
+      }
+    }
+  }
+}
