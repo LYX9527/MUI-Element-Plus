@@ -28,7 +28,7 @@ const data: Array<MenuItem> = [
   {
     icon: 'Timer',
     title: '时间选择',
-    index:"4",
+    index:"/chooseTime",
   },
   {
     icon: 'Message',
@@ -49,6 +49,11 @@ const data: Array<MenuItem> = [
     icon:"",
     title:"进度条",
     index:"/progress",
+  },
+  {
+    icon:'',
+    title:'时间选择',
+    index:'/1chooseTime'
   }
 ]
 </script>

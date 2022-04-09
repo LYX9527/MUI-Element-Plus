@@ -58,5 +58,8 @@ let slots = useSlots();
 </template>
 
 <style lang="scss" scoped>
-
+svg{
+  width: 1em;
+  height: 1em;
+}
 </style>

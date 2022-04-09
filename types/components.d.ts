@@ -6,6 +6,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     ChooseAreaSrc: typeof import('./../src/components/chooseArea/src/index.vue')['default']
     ChooseIconSrc: typeof import('./../src/components/chooseIcon/src/index.vue')['default']
+    ChooseTimeSrc: typeof import('./../src/components/chooseTime/src/index.vue')['default']
     ContainerSrc: typeof import('./../src/components/container/src/index.vue')['default']
     ContainerSrcNavHeader: typeof import('./../src/components/container/src/navHeader/index.vue')['default']
     ContainerSrcNavSide: typeof import('./../src/components/container/src/navSide/index.vue')['default']

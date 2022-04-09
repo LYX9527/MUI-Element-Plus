@@ -34,6 +34,10 @@ const routes: Array<RouteRecordRaw> = [
             {
                 path:'/progress',
                 component:()=>import("@/views/Progress/index.vue")
+            },
+            {
+                path:'/chooseTime',
+                component:()=>import("@/views/ChooseTime/index.vue")
             }
         ]
     },
